@@ -2,13 +2,58 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Tarjeta de crédito válida 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  <body>
-    <header></header>
+  <body> 
+    <div class="container">
+    <img src="../imagenes/foto2.jpg" alt="texto alternativo">
+    <div class="hero-text">Diversifika</div>
+    <h1>Crea, Renueva y Reinventa</h1>
+    <!--elementos validados, validacion de tarjeta de credito -->
+    <br><br>
+    <section id="miId" class="miClaseDeFlexbox">
+     
+      <div class="flexbox">
+        <div id="miDiv">Validacion de Tarjetas</div>
+        <div class="grupo" id="nombre">
+          <p class="lebel">Nombre del Usuario</p>
+          <input type="text">
+        </div>
+      <div class="grupo ">
+          <p class="lebel">Expiracion</p>
+          <p class="expiracion">MM / AA</p>
+          <input type="month">
+      </div>
+      <input id="cardnumber" type="text" name="numero" />  
+      <button id="myBtn">validar</button>
+     <div id="message"></div>
+     <div id="result"></div>
+     <div id="double"></div>
+     </div>
+      </section>
+  </div>
+      <!--elementos por validar menu de navegacion-->
+    <header class="header" id="inicio">
+      <nav class="">
+        <a href= "#inicio">Inicio</a>
+        <a href= "#quienessomos">Quienes somos</a>
+        <a href= "#tendencias">Tendencias</a>
+        <a href= "#productos">Productos</a>
+        <a href= "#contacto">Contacto</a>
+      </nav>
+    </header>
     <main></main>
     <footer></footer>
-    <script src="index.js" type="module"></script>
+    <script type="module" src="./index.js"></script> 
+   <!--<script src="./index.js" type="text/javascript"></script>--> 
   </body>
+
 </html>
+<!--<box-icon type='logo' name='facebook-square'></box-icon>-->
+<!--<box-icon name='instagram' type='logo' ></box-icon>-->
